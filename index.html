@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>서울한옥포털</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 스마트 폰 / 모바일 = 홈 화면 추가 또는 모바일페이지 실행시 전체화면으로 실행 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- css -->
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- 모바일_앱 아이콘 -->
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png" sizes="114x114">
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;500&display=swap" rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="common/js/jquery-1.8.3.min.js"></script>
+    <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="common/js/easing.js"></script>
+</head>
+<body>
+    <div id="skip_nav">
+        <a class="hidden" href="#gnb">네비게이션 바로가기</a>
+        <a class="hidden" href="#container">컨텐츠 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h2 class="hidden">상단영역</h2>
+            <div class="header_inner">
+                <h1 id="logo"><a href="index.html"><img src="common/imgs/logo.png" alt="상단로고이미지"></a></h1>
+                <nav id="gnb">
+                    <ul class="main_menu">
+                        <li><a href="#">한옥마을</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">북촌</a></li>
+                                <li><a href="#">서촌</a></li>
+                                <li><a href="#">은평</a></li>
+                                <li><a href="#">성북동</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">한옥살이</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">북촌</a></li>
+                                <li><a href="#">서촌</a></li>
+                                <li><a href="#">은평</a></li>
+                                <li><a href="#">성북동</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">한옥체험</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">북촌</a></li>
+                                <li><a href="#">서촌</a></li>
+                                <li><a href="#">은평</a></li>
+                                <li><a href="#">성북동</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">자료실</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">사진게시판</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <span class="h_menu"><i class="fas fa-bars"></i></span>
+            </div>
+        </header>
+        <section id="visual">
+            <h2 class="hidden">슬라이드영역</h2>
+            <div id="main_slide"class="swiper-container mySwiper">
+                <ul class="visual_slide swiper-wrapper">
+                    <li class="swiper-slide"><img src="images/main_slide.png" alt="북촌놀아봅시다 이미지"></li>
+                    <li class="swiper-slide"><img src="images/main_slide01.png" alt="은평한옥마을 덕선재이미지"></li>
+                    <li class="swiper-slide"><img src="images/main_slide02.png" alt="시민자율강좌 홍보이미지"></li>
+                </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section id="container">
+            <div class="btn_list_bg">
+                <img src="images/btn_list_bg.png" alt="버튼배경이미지">
+            </div>
+            <article class="btn_list_box">
+                <ul class="btn_list">
+                    <li><a href="#" class="depth m1">이달의 일정</a></li>
+                    <li><a href="#" class="depth m2">북촌문화센터</a></li>
+                    <li><a href="#" class="depth m3">예약/신청</a></li>
+                    <li><a href="#" class="depth m4">온라인전시관</a></li>
+                    <li><a href="#" class="depth m5">한옥찾기</a></li>
+                </ul>
+            </article>
+            <article class="hanok_box">
+                <h3 class="hanok_tit"><img src="images/hanok_tit.png" alt="한옥3곳소개 제목이미지"></h3>
+                <ul class="hanok_btn">
+                    <li><a href="#" class="hanok">은평한옥마을</a></li>
+                    <li><a href="#" class="hanok02">북촌한옥마을</a></li>
+                    <li><a href="#" class="hanok03">성북동한옥마을</a></li>
+                </ul>
+            </article>
+            <article class="palace">
+                <ul>
+                    <li><a href="#">경복궁</a></li>
+                    <li><a href="#">창경궁</a></li>
+                </ul>
+            </article>
+            <article class="travel_box">
+                <ul>
+                    <li><a href="#">북촌</a></li>
+                    <li><a href="#">서촌</a></li>
+                    <li><a href="#">인사동</a></li>
+                    <li><a href="#">성북동</a></li>
+                </ul>
+            </article>
+            <article class="event_box">
+                <ul class="event_slide">
+                    <li><a href="#"><img src="" alt=""></a></li>
+                    <li><a href="#"><img src="" alt=""></a></li>
+                    <li><a href="#"><img src="" alt=""></a></li>
+                    <li><a href="#"><img src="" alt=""></a></li>
+                    <li><a href="#"><img src="" alt=""></a></li>
+                    <li><a href="#"><img src="" alt=""></a></li>
+                </ul>
+            </article>
+        </section>
+        <footer id="footer">
+            <div class="footer_inner">
+                <span class="footer_logo"> 
+                    <a href="index.html"><img src="common/imgs/footer_logo.png" alt=""></a>
+                </span>
+                <p class="footer_menu">
+                    한옥건축자산과소개 ㅣ 개인정보처리방침 ㅣ 저작권정책 ㅣ 이메일무단수집거부 ㅣ 사이트맵 ㅣ 이용불편신고
+                </p>
+                <address>
+                     <p><span>04524 서울특별시 중구 세종대로 110 서울시청 11층 도시재생실 한옥건축자산과</span><br>Tel. 02-2133-5580 Fax. 02-2133-0828</p>
+                     <p>&copy; 2016. Seoul Metropolitan Government all rights reserved.</p>
+                </address>
+            </div>
+        </footer>
+    </div>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* font 
+    font-family: 'Noto Serif KR', serif;
+    */
+
+/* swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* layout */
+#visual{width: 100%;}
+#container{width: 100%;}
+
+/* article.visual */
+#visual #main_slide{width: 100%;}
+#visual #main_slide .visual_slide{width: 100%;}
+#visual #main_slide .visual_slide>li>img{width: 100%;height: 767px;}
+
+/* container .btn_list_box */
+#container .btn_list_box{position: relative; width: 950px;height: 158px;overflow: hidden;left: 26%;margin-top: -100px;}
+#container .btn_list_box .btn_list{position: absolute;}
+#container .btn_list_box .btn_list>li{float: left;margin-right: 30px;}
+#container .btn_list_box .btn_list>li:hover>a.depth{transform: translate(0,-158px);transition: all 0.8s;}
+#container .btn_list_box .btn_list>li>a.depth{display: block;width:160px;height: 158px;text-indent: -9999px; border-radius: 70%;font-family: 'Noto Serif KR', serif;}
+#container .btn_list_box .btn_list>li>a.m1{background-image: url(../images/main_btn01.png);}
+#container .btn_list_box .btn_list>li>a.m2{background-image: url(../images/main_btn02.png);}
+#container .btn_list_box .btn_list>li>a.m3{background-image: url(../images/main_btn03.png);}
+#container .btn_list_box .btn_list>li>a.m4{background-image: url(../images/main_btn04.png);}
+#container .btn_list_box .btn_list>li>a.m5{background-image: url(../images/main_btn05.png);}
+
+#container .btn_list_bg{width: 100%;}
+#container .btn_list_bg>img{width: 100%;}
+
+/* container .hanok_box */
+#container .hanok_box{width: 100%;}
+#container .hanok_box .hanok_tit{width: 100%;}
+#container .hanok_box .hanok_tit>img{width: 100%;}
+#container .hanok_box .hanok_btn{width: 1626px;height: 782px;margin: 0 auto;}
+#container .hanok_box .hanok_btn>li{float: left;padding-right: 20px;}
+#container .hanok_box .hanok_btn>li>a{display: block;width: 522px;height: 782px;transition: all 0.8s;text-indent: -9999px;;}
+#container .hanok_box .hanok_btn>li>a.hanok{background-image: url(../images/hanok.png);}
+#container .hanok_box .hanok_btn>li>a.hanok:hover{background-image: url(../images/ho_hanok.png);}
+#container .hanok_box .hanok_btn>li>a.hanok02{background-image: url(../images/hanok02.png);}
+#container .hanok_box .hanok_btn>li>a.hanok02:hover{background-image: url(../images/ho_hanok02.png);}
+#container .hanok_box .hanok_btn>li>a.hanok03{background-image: url(../images/hanok03.png);}
+#container .hanok_box .hanok_btn>li>a.hanok03:hover{background-image: url(../images/ho_hanok03.png);}
+
+/* -------------------------------------@media screen------------------------------------------- */
+/* 일반PC(1281px ~ 1600px) */
+@media screen and (max-width : 1600px){
+/* article.visual */
+#visual #main_slide{width: 100%;}
+#visual #main_slide .visual_slide{width: 100%;}
+#visual #main_slide .visual_slide>li>img{width: 100%;height: 648px;}
+
+/* container .btn_list_box */
+#container .btn_list_box{left: 21%;}
+
+/* container .hanok_box */
+#container .hanok_box .hanok_btn{width: 1365px;height: 653px;margin: 0 auto;}
+#container .hanok_box .hanok_btn>li{float: left;padding-right: 20px;}
+#container .hanok_box .hanok_btn>li>a{display: block;width: 435px;height: 653px;transition: all 0.8s;text-indent: -9999px;;}
+#container .hanok_box .hanok_btn>li>a.hanok{background-image: url(../images/hanok.png);}
+#container .hanok_box .hanok_btn>li>a.hanok:hover{background-image: url(../images/ho_hanok.png);}
+#container .hanok_box .hanok_btn>li>a.hanok02{background-image: url(../images/hanok02.png);}
+#container .hanok_box .hanok_btn>li>a.hanok02:hover{background-image: url(../images/ho_hanok02.png);}
+#container .hanok_box .hanok_btn>li>a.hanok03{background-image: url(../images/hanok03.png);}
+#container .hanok_box .hanok_btn>li>a.hanok03:hover{background-image: url(../images/ho_hanok03.png);}
+}
+/* 대형 태블릿(769px ~ 1280px) */
+@media screen and (max-width : 1280px){
+ 
+}
+/* 중형 태블릿(415px ~ 768px) */
+@media screen and (max-width : 768px){
+
+}
+/* 스마트폰 (320px ~ 414px) */
+@media screen and (min-width : 320px) and (max-width : 414px){
+ 
+}
